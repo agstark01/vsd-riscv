@@ -1,12 +1,12 @@
 # Sum of Squares in C and RISC-V
 
-## 📌 Overview
+## Overview
 This project demonstrates a simple **C program** that calculates the sum of squares of the first `n` natural numbers.  
 The program is compiled with the **RISC-V GCC toolchain**, and the resulting **RISC-V assembly instructions** are analyzed to understand how high-level C constructs map to low-level machine instructions.
 
 ---
 
-## 💻 C Program (`sumsquare.c`)
+## C Program (`sumsquare.c`)
 ```c
 #include <stdio.h>
 
@@ -20,7 +20,7 @@ int main() {
 }
 ```
 
-### ✅ Output
+### Output
 ```
 385
 ```
@@ -32,7 +32,7 @@ This matches the mathematical formula:
 
 ---
 
-## ⚙️ RISC-V Disassembly (`sum1.o`)
+##  RISC-V Disassembly (`sum1.o`)
 When compiled using the RISC-V GCC toolchain, we can inspect the generated object file with:
 
 ```bash
@@ -57,7 +57,7 @@ Example output snippet (from `main` function):
 
 ---
 
-## 🛠️ RISC-V Instruction Types
+##  RISC-V Instruction Types
 RISC-V instructions are divided into several **types** based on their format:
 
 - **R-type** → Register to register operations  
@@ -83,7 +83,7 @@ RISC-V instructions are divided into several **types** based on their format:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 1. Compile with RISC-V GCC:
    ```bash
    riscv64-unknown-elf-gcc sumsquare.c -o sum1
@@ -98,12 +98,3 @@ RISC-V instructions are divided into several **types** based on their format:
    ```
 
 ---
-
-## 📚 Learning Outcome
-- Understand how **C loops and arithmetic** translate into **RISC-V assembly**.  
-- Learn about **instruction types** (R, I, S, B, U, J).  
-- See how function calls (`printf`) and stack management are implemented at the machine level.  
-
----
-
-👉 This project is a beginner-friendly way to explore **C programming, compilation, and RISC-V assembly**.
