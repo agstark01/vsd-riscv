@@ -19,6 +19,7 @@ int main() {
     return 0;
 }
 ```
+<img width="1920" height="923" alt="Screenshot from 2025-08-23 22-23-07" src="https://github.com/user-attachments/assets/6eb635c0-8df6-4079-bd08-9163579fc6b6" />
 
 ### Output
 ```
@@ -54,6 +55,7 @@ Example output snippet (from `main` function):
 101a4:  01010113   addi sp,sp,16
 101a8:  00008067   ret
 ```
+<img width="955" height="910" alt="Screenshot from 2025-08-23 22-28-27" src="https://github.com/user-attachments/assets/d8b52308-e9db-476c-a0d6-ad5199bceb7f" />
 
 ---
 
