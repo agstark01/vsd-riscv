@@ -3,7 +3,7 @@
 This project demonstrates a simple RISC-V program that computes the
 **sum of squares from 1 to 10**.\
 The final result should be:
-
+$x^2$.
 $[ 1\^2 + 2\^2 + `\cdots `{=tex}+ 10\^2 = 385 \]$
 
 ------------------------------------------------------------------------
