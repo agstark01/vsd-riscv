@@ -1,10 +1,10 @@
 # Sum of Squares in RISC-V
 
 This project demonstrates a simple RISC-V program that computes the
-**sum of squares from 1 to 10**.\
+**sum of squares from 1 to 10**.
 The final result should be:
 
-[ $1^2$ + 2^2 + $`\cdots `{=tex}$+ $10^2$ = 385 \]
+[ $1^2$ + $2^2$ + ..... + $10^2$ = 385 ]
 
 ------------------------------------------------------------------------
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/b10ef06a-ffe8-416f-ab4c-57a490e8eabf" />
