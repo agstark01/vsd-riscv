@@ -1,6 +1,6 @@
-# RISC-V Instruction Examples 
+# RISC-V Instruction  
 
-
+Here i have used O0 to see more instruction because o1 is optimizing the code too much...!
 ---
 <img width="351" height="183" alt="image" src="https://github.com/user-attachments/assets/3ee76a31-53b1-4d6f-9b0f-a7ce35a23434" />
 
