@@ -27,9 +27,9 @@ int main() {
 ```
 This matches the mathematical formula:
 
-\[
-\sum_{i=1}^{10} i^2 = \frac{n(n+1)(2n+1)}{6} = 385
-\]
+[
+sum_${i=1}^10$ i^2 = frac{n(n+1)(2n+1)}{6} = 385
+]
 
 ---
 
@@ -88,7 +88,7 @@ RISC-V instructions are divided into several **types** based on their format:
 ## How to Run
 1. Compile with RISC-V GCC:
    ```bash
-   riscv64-unknown-elf-gcc sumsquare.c -o sum1
+   riscv64-unknown-elf-gcc -O0 -mabi=lp64 -march=rv64i sumsquare.c -o sum1
    ```
 2. Run in a RISC-V emulator (like Spike or QEMU):
    ```bash
@@ -96,7 +96,7 @@ RISC-V instructions are divided into several **types** based on their format:
    ```
 3. Disassemble to see instructions:
    ```bash
-   riscv64-unknown-elf-objdump -d sum1 > sum1.asm
+   riscv64-unknown-elf-objdump -d sumsquare.o
    ```
 
 ---
